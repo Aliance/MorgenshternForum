@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<export exported="1158933574">
+	<group>
+		<row>
+			<task_id>1</task_id>
+			<task_title><![CDATA[Очистка форума (раз в час)]]></task_title>
+			<task_file>cleanout.php</task_file>
+			<task_next_run>1158935280</task_next_run>
+			<task_week_day>-1</task_week_day>
+			<task_month_day>-1</task_month_day>
+			<task_hour>-1</task_hour>
+			<task_minute>59</task_minute>
+			<task_cronkey>87a432443398942e7536028f9b0e4296</task_cronkey>
+			<task_log>1</task_log>
+			<task_description><![CDATA[Удаление старых сессий, защитных регистрационных кодов, временных результатов поиска]]></task_description>
+			<task_enabled>1</task_enabled>
+			<task_key>cleanout</task_key>
+			<task_safemode>0</task_safemode>
+			<task_locked>0</task_locked>
+		</row>
+
+		<row>
+			<task_id>2</task_id>
+			<task_title><![CDATA[Пересчет статистики (раз в день)]]></task_title>
+			<task_file>rebuildstats.php</task_file>
+			<task_next_run>1158969600</task_next_run>
+			<task_week_day>-1</task_week_day>
+			<task_month_day>-1</task_month_day>
+			<task_hour>0</task_hour>
+			<task_minute>0</task_minute>
+			<task_cronkey>ac88319151330882c4a0eaa3d9016a1b</task_cronkey>
+			<task_log>1</task_log>
+			<task_description><![CDATA[Пересчет статистики форума]]></task_description>
+			<task_enabled>1</task_enabled>
+			<task_key>rebuildstats</task_key>
+			<task_safemode>0</task_safemode>
+			<task_locked>0</task_locked>
+		</row>
+
+		<row>
+			<task_id>3</task_id>
+			<task_title><![CDATA[Очистка форума (раз в день)]]></task_title>
+			<task_file>dailycleanout.php</task_file>
+			<task_next_run>1158980400</task_next_run>
+			<task_week_day>-1</task_week_day>
+			<task_month_day>-1</task_month_day>
+			<task_hour>3</task_hour>
+			<task_minute>0</task_minute>
+			<task_cronkey>43f41348f6d31e86884a6431f29ef52f</task_cronkey>
+			<task_log>1</task_log>
+			<task_description><![CDATA[Удаление старых подписок на темы и старых меток прочтения тем]]></task_description>
+			<task_enabled>1</task_enabled>
+			<task_key>dailycleanout</task_key>
+			<task_safemode>0</task_safemode>
+			<task_locked>0</task_locked>
+		</row>
+
+		<row>
+			<task_id>4</task_id>
+			<task_title><![CDATA[Кеширование именинников и событий]]></task_title>
+			<task_file>calendarevents.php</task_file>
+			<task_next_run>1158961980</task_next_run>
+			<task_week_day>-1</task_week_day>
+			<task_month_day>-1</task_month_day>
+			<task_hour>12</task_hour>
+			<task_minute>-1</task_minute>
+			<task_cronkey>f0bd66a5f14ad72e76c9636c84325a2a</task_cronkey>
+			<task_log>1</task_log>
+			<task_description><![CDATA[Создание кеша календарных событий и дней рождения]]></task_description>
+			<task_enabled>1</task_enabled>
+			<task_key>calendarevents</task_key>
+			<task_safemode>0</task_safemode>
+			<task_locked>0</task_locked>
+		</row>
+
+		<row>
+			<task_id>5</task_id>
+			<task_title><![CDATA[Обновление объявлений]]></task_title>
+			<task_file>announcements.php</task_file>
+			<task_next_run>1158933060</task_next_run>
+			<task_week_day>-1</task_week_day>
+			<task_month_day>-1</task_month_day>
+			<task_hour>4</task_hour>
+			<task_minute>-1</task_minute>
+			<task_cronkey>82584951232335eed1d53027f3046694</task_cronkey>
+			<task_log>1</task_log>
+			<task_description><![CDATA[Удаление старых объявлений и обновление кеша объявлений]]></task_description>
+			<task_enabled>1</task_enabled>
+			<task_key>announcements</task_key>
+			<task_safemode>0</task_safemode>
+			<task_locked>0</task_locked>
+		</row>
+
+		<row>
+			<task_id>6</task_id>
+			<task_title><![CDATA[Отправка рассылки]]></task_title>
+			<task_file>bulkmail.php</task_file>
+			<task_next_run>1158846544</task_next_run>
+			<task_week_day>-1</task_week_day>
+			<task_month_day>-1</task_month_day>
+			<task_hour>-1</task_hour>
+			<task_minute>-1</task_minute>
+			<task_cronkey>39b03a6e8a22c6a9ee419d31a47cea33</task_cronkey>
+			<task_log>0</task_log>
+			<task_description><![CDATA[Запускается автоматически при появлении рассылок для отправки. Не изменять!]]></task_description>
+			<task_enabled>0</task_enabled>
+			<task_key>bulkmail</task_key>
+			<task_safemode>1</task_safemode>
+			<task_locked>0</task_locked>
+		</row>
+
+		<row>
+			<task_id>7</task_id>
+			<task_title><![CDATA[Обзор тем и форума (раз в день)]]></task_title>
+			<task_file>dailydigest.php</task_file>
+			<task_next_run>1158970200</task_next_run>
+			<task_week_day>-1</task_week_day>
+			<task_month_day>-1</task_month_day>
+			<task_hour>0</task_hour>
+			<task_minute>10</task_minute>
+			<task_cronkey>b905a89a00d6ba8acd30092cb9a3f8b2</task_cronkey>
+			<task_log>1</task_log>
+			<task_description><![CDATA[Отправка ежедневной рассылки тем и обзора форума]]></task_description>
+			<task_enabled>1</task_enabled>
+			<task_key>dailydigest</task_key>
+			<task_safemode>0</task_safemode>
+			<task_locked>0</task_locked>
+		</row>
+
+		<row>
+			<task_id>8</task_id>
+			<task_title><![CDATA[Обзор тем и форума (раз в неделю)]]></task_title>
+			<task_file>weeklydigest.php</task_file>
+			<task_next_run>1159067400</task_next_run>
+			<task_week_day>0</task_week_day>
+			<task_month_day>-1</task_month_day>
+			<task_hour>3</task_hour>
+			<task_minute>10</task_minute>
+			<task_cronkey>5df642c53fda5d889546f21bfbac92ba</task_cronkey>
+			<task_log>1</task_log>
+			<task_description><![CDATA[Отправка еженедельной рассылки тем и обзора форума]]></task_description>
+			<task_enabled>1</task_enabled>
+			<task_key>weeklydigest</task_key>
+			<task_safemode>0</task_safemode>
+			<task_locked>0</task_locked>
+		</row>
+
+		<row>
+			<task_id>9</task_id>
+			<task_title><![CDATA[Завершение платных подписок]]></task_title>
+			<task_file>doexpiresubs.php</task_file>
+			<task_next_run>1158969600</task_next_run>
+			<task_week_day>-1</task_week_day>
+			<task_month_day>-1</task_month_day>
+			<task_hour>0</task_hour>
+			<task_minute>0</task_minute>
+			<task_cronkey>57fddf99f58d4c5393c2eb3408047267</task_cronkey>
+			<task_log>1</task_log>
+			<task_description><![CDATA[Отписывает пользователей от заказанных платных подписок по истечению срока подписки]]></task_description>
+			<task_enabled>1</task_enabled>
+			<task_key>doexpiresubs</task_key>
+			<task_safemode>1</task_safemode>
+			<task_locked>0</task_locked>
+		</row>
+
+		<row>
+			<task_id>10</task_id>
+			<task_title><![CDATA[Обновление счетчика просмотров тем]]></task_title>
+			<task_file>updateviews.php</task_file>
+			<task_next_run>1158942600</task_next_run>
+			<task_week_day>-1</task_week_day>
+			<task_month_day>-1</task_month_day>
+			<task_hour>3</task_hour>
+			<task_minute>-1</task_minute>
+			<task_cronkey>4faf64b98e9c57c483b82ba6074d1b0f</task_cronkey>
+			<task_log>0</task_log>
+			<task_description><![CDATA[Используется, когда просмотры тем не обновляются в реальном времени]]></task_description>
+			<task_enabled>1</task_enabled>
+			<task_key>updateviews</task_key>
+			<task_safemode>0</task_safemode>
+			<task_locked>0</task_locked>
+		</row>
+
+		<row>
+			<task_id>11</task_id>
+			<task_title><![CDATA[Уведомление об истечении подписок]]></task_title>
+			<task_file>expiresubs.php</task_file>
+			<task_next_run>1158973200</task_next_run>
+			<task_week_day>-1</task_week_day>
+			<task_month_day>-1</task_month_day>
+			<task_hour>1</task_hour>
+			<task_minute>0</task_minute>
+			<task_cronkey>521640eb417f07e634604daae56ca485</task_cronkey>
+			<task_log>1</task_log>
+			<task_description><![CDATA[Отправка писем пользователям, у которых закончилась подписка]]></task_description>
+			<task_enabled>1</task_enabled>
+			<task_key>expiresubs</task_key>
+			<task_safemode>0</task_safemode>
+			<task_locked>0</task_locked>
+		</row>
+
+		<row>
+			<task_id>12</task_id>
+			<task_title><![CDATA[Обновление RSS импорта]]></task_title>
+			<task_file>rssimport.php</task_file>
+			<task_next_run>1158933480</task_next_run>
+			<task_week_day>-1</task_week_day>
+			<task_month_day>-1</task_month_day>
+			<task_hour>-1</task_hour>
+			<task_minute>30</task_minute>
+			<task_cronkey>a102c550761e0074251496e5d3afea60</task_cronkey>
+			<task_log>1</task_log>
+			<task_description><![CDATA[Импортирование новых RSS-записей в форумы]]></task_description>
+			<task_enabled>1</task_enabled>
+			<task_key>rssimport</task_key>
+			<task_safemode>1</task_safemode>
+			<task_locked>0</task_locked>
+		</row>
+
+		<row>
+			<task_id>13</task_id>
+			<task_title><![CDATA[Удаление не активированных пользователей]]></task_title>
+			<task_file>removevalidating.php</task_file>
+			<task_next_run>1158976800</task_next_run>
+			<task_week_day>-1</task_week_day>
+			<task_month_day>-1</task_month_day>
+			<task_hour>2</task_hour>
+			<task_minute>0</task_minute>
+			<task_cronkey>0460686136ae8c6d4db59824afe59748</task_cronkey>
+			<task_log>1</task_log>
+			<task_description><![CDATA[Удаление не активированных пользователей в соответствии с настройкой «Удалять неподтверждённые регистрации после X дней»]]></task_description>
+			<task_enabled>1</task_enabled>
+			<task_key>validating</task_key>
+			<task_safemode>1</task_safemode>
+			<task_locked>0</task_locked>
+		</row>
+
+		<row>
+			<task_id>14</task_id>
+			<task_title><![CDATA[Очистка журналов событий]]></task_title>
+			<task_file>logprune.php</task_file>
+			<task_next_run>1159336800</task_next_run>
+			<task_week_day>-1</task_week_day>
+			<task_month_day>27</task_month_day>
+			<task_hour>6</task_hour>
+			<task_minute>0</task_minute>
+			<task_cronkey>8337aca64493804858fbcc2c4fc5759b</task_cronkey>
+			<task_log>1</task_log>
+			<task_description><![CDATA[Удаление логов, попадающих под критерии указанные в настройках очисти логов]]></task_description>
+			<task_enabled>1</task_enabled>
+			<task_key>logprune</task_key>
+			<task_safemode>0</task_safemode>
+			<task_locked>0</task_locked>
+		</row>
+
+		<row>
+			<task_id>15</task_id>
+			<task_title><![CDATA[Обновление просмотров профилей]]></task_title>
+			<task_file>update_profile_views.php</task_file>
+			<task_next_run>1158936240</task_next_run>
+			<task_week_day>-1</task_week_day>
+			<task_month_day>-1</task_month_day>
+			<task_hour>1</task_hour>
+			<task_minute>-1</task_minute>
+			<task_cronkey>3077b04aeaebb5e758c1b5bcd1e48816</task_cronkey>
+			<task_log>0</task_log>
+			<task_description><![CDATA[Обновление счетчика просмотров профилей пользователей]]></task_description>
+			<task_enabled>1</task_enabled>
+			<task_key>update_profile_views</task_key>
+			<task_safemode>1</task_safemode>
+			<task_locked>0</task_locked>
+		</row>
+	</group>
+
+</export>

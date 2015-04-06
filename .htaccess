@@ -1,0 +1,54 @@
+SetEnv TZ Europe/Moscow
+
+Options -Indexes
+AddDefaultCharset windows-1251
+
+# Выдача заголовка ETag (core feature)
+FileETag MTime Size
+
+# Добавляем mime-тип и кодировку
+AddType 'text/css; charset=windows-1251' .css
+AddType 'text/javascript; charset=windows-1251' .js
+AddType 'image/x-icon; charset=windows-1251' .ico
+AddType 'text/html; charset=windows-1251' .html .shtml
+AddType 'text/xml; charset=windows-1251' .xml
+AddType 'text/x-component; charset=windows-1251' .htc  
+
+# добавление сжатия файлов
+<IfModule mod_deflate.c>
+	AddOutputFilterByType DEFLATE text/html text/xml image/x-icon text/css text/javascript
+
+	# обработка "кривых" брaузеров
+	BrowserMatch ^Mozilla/4 gzip-only-text/html
+	BrowserMatch ^Mozilla/4\.0[678] no-gzip
+	BrowserMatch Konqueror no-gzip
+	BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+</IfModule>
+
+<IfModule mod_headers.c>
+	Header append Vary User-Agent
+
+	# разрешение кеширования файлов на стороне клиента
+	<FilesMatch .*\.(css|js|php|phtml|shtml|html|xml)$>
+		Header append Cache-Control private
+	</FilesMatch>
+</IfModule>
+
+# включение заголовка Expires для всех файлов сроком на месяц
+<IfModule mod_expires.c>
+	ExpiresActive On
+	ExpiresDefault "access plus 1 month"
+
+	# выключение Expires для HTML-файлов и PHP-скриптов
+	<FilesMatch .*\.(shtml|html|phtml|php)$>
+		ExpiresActive Off
+	</FilesMatch>
+</IfModule>
+
+<IfModule mod_dir.c>
+	DirectoryIndex index.php
+</IfModule>
+
+<IfModule mod_rewrite.c>
+	RewriteEngine Off
+</IfModule>

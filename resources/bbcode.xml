@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<bbcodeexport exported="1163600079">
+	<bbcodegroup>
+		<bbcode>
+			<bbcode_id>1</bbcode_id>
+			<bbcode_title><![CDATA[Указатель сообщения]]></bbcode_title>
+			<bbcode_desc><![CDATA[Этот тег показывает маленькое изображение, которое является ссылкой на цитируемое сообщение — используется, когда цитируются сообщения с форума. Открывается по умолчанию в том же окне.]]></bbcode_desc>
+			<bbcode_tag>snapback</bbcode_tag>
+			<bbcode_replace><![CDATA[<a href="index.php?act=findpost&amp;pid={content}"><{POST_SNAPBACK}></a>]]></bbcode_replace>
+			<bbcode_useoption>0</bbcode_useoption>
+			<bbcode_example><![CDATA[[snapback]100[/snapback]]]></bbcode_example>
+			<bbcode_switch_option>0</bbcode_switch_option>
+			<bbcode_add_into_menu>0</bbcode_add_into_menu>
+			<bbcode_menu_option_text></bbcode_menu_option_text>
+			<bbcode_menu_content_text></bbcode_menu_content_text>
+		</bbcode>
+
+		<bbcode>
+			<bbcode_id>2</bbcode_id>
+			<bbcode_title><![CDATA[По правому краю]]></bbcode_title>
+			<bbcode_desc><![CDATA[Выравнивание текста по правому краю]]></bbcode_desc>
+			<bbcode_tag>right</bbcode_tag>
+			<bbcode_replace><![CDATA[<div align='right'>{content}</div>]]></bbcode_replace>
+			<bbcode_useoption>0</bbcode_useoption>
+			<bbcode_example><![CDATA[[right]Любой текст здесь[/right]]]></bbcode_example>
+			<bbcode_switch_option>0</bbcode_switch_option>
+			<bbcode_add_into_menu>0</bbcode_add_into_menu>
+			<bbcode_menu_option_text></bbcode_menu_option_text>
+			<bbcode_menu_content_text></bbcode_menu_content_text>
+		</bbcode>
+
+		<bbcode>
+			<bbcode_id>3</bbcode_id>
+			<bbcode_title><![CDATA[По левому краю]]></bbcode_title>
+			<bbcode_desc><![CDATA[Выравнивание текста по левому краю]]></bbcode_desc>
+			<bbcode_tag>left</bbcode_tag>
+			<bbcode_replace><![CDATA[<div align='left'>{content}</div>]]></bbcode_replace>
+			<bbcode_useoption>0</bbcode_useoption>
+			<bbcode_example><![CDATA[[left]Этот текст будет использовать выравнивание по левому краю[/left]]]></bbcode_example>
+			<bbcode_switch_option>0</bbcode_switch_option>
+			<bbcode_add_into_menu>0</bbcode_add_into_menu>
+			<bbcode_menu_option_text></bbcode_menu_option_text>
+			<bbcode_menu_content_text></bbcode_menu_content_text>
+		</bbcode>
+
+		<bbcode>
+			<bbcode_id>4</bbcode_id>
+			<bbcode_title><![CDATA[По центру]]></bbcode_title>
+			<bbcode_desc><![CDATA[Выравнивание текста по центру.]]></bbcode_desc>
+			<bbcode_tag>center</bbcode_tag>
+			<bbcode_replace><![CDATA[<div align='center'>{content}</div>]]></bbcode_replace>
+			<bbcode_useoption>0</bbcode_useoption>
+			<bbcode_example><![CDATA[[center]Выравнивание текста будет по центру[/center]]]></bbcode_example>
+			<bbcode_switch_option>0</bbcode_switch_option>
+			<bbcode_add_into_menu>1</bbcode_add_into_menu>
+			<bbcode_menu_option_text></bbcode_menu_option_text>
+			<bbcode_menu_content_text><![CDATA[Введите текст для выравнивания]]></bbcode_menu_content_text>
+		</bbcode>
+
+		<bbcode>
+			<bbcode_id>5</bbcode_id>
+			<bbcode_title><![CDATA[Ссылка на тему]]></bbcode_title>
+			<bbcode_desc><![CDATA[Этот тег позволяет легко опубликовать ссылку на тему, зная лишь ее номер]]></bbcode_desc>
+			<bbcode_tag>topic</bbcode_tag>
+			<bbcode_replace><![CDATA[<a href='index.php?showtopic={option}'>{content}</a>]]></bbcode_replace>
+			<bbcode_useoption>1</bbcode_useoption>
+			<bbcode_example><![CDATA[[topic=100]Нажми здесь![/topic]]]></bbcode_example>
+			<bbcode_switch_option>0</bbcode_switch_option>
+			<bbcode_add_into_menu>1</bbcode_add_into_menu>
+			<bbcode_menu_option_text><![CDATA[Введите ID темы]]></bbcode_menu_option_text>
+			<bbcode_menu_content_text><![CDATA[Введите заголовок для ссылки]]></bbcode_menu_content_text>
+		</bbcode>
+
+		<bbcode>
+			<bbcode_id>6</bbcode_id>
+			<bbcode_title><![CDATA[Ссылка на сообщение]]></bbcode_title>
+			<bbcode_desc><![CDATA[Этот тег позволяет легко опубликовать ссылку на сообщение, зная лишь его номер.]]></bbcode_desc>
+			<bbcode_tag>post</bbcode_tag>
+			<bbcode_replace><![CDATA[<a href='index.php?act=findpost&pid={option}'>{content}</a>]]></bbcode_replace>
+			<bbcode_useoption>1</bbcode_useoption>
+			<bbcode_example><![CDATA[[post=100]Нажми здесь![/post]]]></bbcode_example>
+			<bbcode_switch_option>0</bbcode_switch_option>
+			<bbcode_add_into_menu>1</bbcode_add_into_menu>
+			<bbcode_menu_option_text><![CDATA[Введите ID сообщения]]></bbcode_menu_option_text>
+			<bbcode_menu_content_text><![CDATA[Введите заголовок для ссылки]]></bbcode_menu_content_text>
+		</bbcode>
+
+		<bbcode>
+			<bbcode_id>7</bbcode_id>
+			<bbcode_title><![CDATA[Блок кода]]></bbcode_title>
+			<bbcode_desc><![CDATA[Этот тег будет показывать блок кода с полосой прокрутки. Применяется для больших блоков с исходным кодом программы.]]></bbcode_desc>
+			<bbcode_tag>codebox</bbcode_tag>
+			<bbcode_replace><![CDATA[<div class='codetop'>CODE</div><div class='codemain' style='height:200px;white-space:pre;overflow:auto'>{content}</div>]]></bbcode_replace>
+			<bbcode_useoption>0</bbcode_useoption>
+			<bbcode_example><![CDATA[[codebox]long_code_here = ';[/codebox]]]></bbcode_example>
+			<bbcode_switch_option>0</bbcode_switch_option>
+			<bbcode_add_into_menu>1</bbcode_add_into_menu>
+			<bbcode_menu_option_text></bbcode_menu_option_text>
+			<bbcode_menu_content_text><![CDATA[Введите свой код]]></bbcode_menu_content_text>
+		</bbcode>
+
+		<bbcode>
+			<bbcode_id>10</bbcode_id>
+			<bbcode_title><![CDATA[Спойлер]]></bbcode_title>
+			<bbcode_desc><![CDATA[Этот тег маскирует текст, как бы скрывая его от пользователей.]]></bbcode_desc>
+			<bbcode_tag>spoiler</bbcode_tag>
+			<bbcode_replace><![CDATA[<span style='color:#000000;background:#000000'>{content}</span>]]></bbcode_replace>
+			<bbcode_useoption>0</bbcode_useoption>
+			<bbcode_example><![CDATA[[spoiler]Этот текст будет замаскирован[/spoiler]]]></bbcode_example>
+			<bbcode_switch_option>0</bbcode_switch_option>
+			<bbcode_add_into_menu>1</bbcode_add_into_menu>
+			<bbcode_menu_option_text></bbcode_menu_option_text>
+			<bbcode_menu_content_text><![CDATA[Введите текст]]></bbcode_menu_content_text>
+		</bbcode>
+
+		<bbcode>
+			<bbcode_id>11</bbcode_id>
+			<bbcode_title><![CDATA[Акроним]]></bbcode_title>
+			<bbcode_desc><![CDATA[Тег позволяет сделать акроним, показывающий описание при наведении мыши на текст.]]></bbcode_desc>
+			<bbcode_tag>acronym</bbcode_tag>
+			<bbcode_replace><![CDATA[<acronym title='{option}'>{content}</acronym>]]></bbcode_replace>
+			<bbcode_useoption>1</bbcode_useoption>
+			<bbcode_example><![CDATA[[acronym='Laugh Out Loud']lol[/acronym]]]></bbcode_example>
+			<bbcode_switch_option>0</bbcode_switch_option>
+			<bbcode_add_into_menu>1</bbcode_add_into_menu>
+			<bbcode_menu_option_text><![CDATA[Введите описание акронима (Например: Laugh Out Loud)]]></bbcode_menu_option_text>
+			<bbcode_menu_content_text><![CDATA[Введите акроним (Например: lol)]]></bbcode_menu_content_text>
+		</bbcode>
+	</bbcodegroup>
+
+</bbcodeexport>

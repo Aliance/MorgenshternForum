@@ -1,0 +1,1033 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+<title>Morgenshtern :: Таблица опыта</title>
+
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="content-type" content="text/html; charset=windows-1251" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-language" content="ru" />
+<meta name="distribution" content="Global" />
+<meta name="robots" content="INDEX,FOLLOW" />
+<meta name="rating" content="General" />
+<meta name="revisit-after" content="30 Days" />
+<meta name="classification" content="Internet" />
+<meta name="resource-type" content="DOCUMENT" />
+<meta name="author" content="Aliance spb" />
+<meta name="copyright" content="Aliance spb" />
+<meta name="title" content="Morgenshtern" />
+<meta name="description" content="Официальный сайт клана Morgenshtern в Бойцовском Клубе" />
+<meta name="keywords" content="Morgenshtern, Aliance spb, Aliance, FC, combats, БК, Бойцовский Клуб, Моргенштерн" />
+
+<link rel="StyleSheet" href="http://www.morgenshtern.com/css/style.css" type="text/css" />
+
+<script type="text/javascript" src="http://www.morgenshtern.com/js/scripts.js"></script>
+</head>
+
+<body>
+
+<table id="main_table">
+	<tr>
+		<td colspan="2">
+
+			<!-- LOGO -->
+			<table id="logo">
+				<tr>
+					<td id="logo_layer_top"></td>
+				</tr>
+				<tr>
+					<td id="logo_layer_middle">
+
+						<table id="logo_middle">
+							<tr>
+								<td id="logo_middle_left"></td>
+								<td id="logo_middle_right">
+
+									<form action="" method="post" id="login-form">
+									<div><label class="login" for="ipb_nick">Логин:</label>&nbsp;<input type="text" id="ipb_nick" name="ipb_nick" /></div>
+									<div><label class="login" for="ipb_pass">Пароль:</label><input type="password" id="ipb_pass" name="ipb_pass" class="input_password" /></div>
+									<div><input type="image" id="enter_button" src="http://www.morgenshtern.com/img/enter.gif" alt="Войти" />&nbsp;
+									<a href="http://forum.morgenshtern.com/index.php?act=Reg&amp;CODE=10" id="forget" onclick="open_window(this.href); return false;">Забыли пароль?</a></div>
+									</form>
+
+								</td>
+							</tr>
+						</table>
+
+					</td>
+				</tr>
+				<tr>
+					<td id="logo_layer_bottom"></td>
+				</tr>
+			</table>
+			<!-- LOGO -->
+
+		</td>
+	</tr>
+
+	<tr style="width: 100%;">
+		<td style="width: 264px; vertical-align: top;">
+
+			<!-- КНОПКИ-ССЫЛКИ -->
+			<table id="rnd_img">
+				<tr>
+					<td><img src="http://www.morgenshtern.com/img/4years.gif" width="201" height="85" alt="Morgenshtern" title="" /></td>
+				</tr>
+			</table>
+			<!-- КНОПКИ-ССЫЛКИ -->
+
+			<!-- МЕНЮ -->
+			<table class="menu" cellspacing="0" cellpadding="0">
+				<tr>
+					<td class="menu_left_title"></td>
+					<td class="menu_right_title">
+						<a href="http://www.morgenshtern.com/" id="menu_title_index"><img src="http://www.morgenshtern.com/img/menu_title_index.gif" width="72" height="18" alt="Morgenshtern" title="" /></a> <img src="http://www.morgenshtern.com/img/star.gif" width="18" height="18" alt="Morgenshtern" title="Звёздочка" /> <a href="http://forum.morgenshtern.com/" id="menu_title_forum" onclick="open_window(this.href); return false;"><img src="http://www.morgenshtern.com/img/menu_title_forum.gif" width="58" height="18" alt="Клан" title="" /></a>
+					</td>
+				</tr>
+
+				<tr>
+					<td class="menu_left">&nbsp;</td>
+					<td class="menu_right" style="background-position: 3% 8%">
+						<div class="menu_right_name">Клан</div>
+						<div class="disabled">
+							<br /><a href="http://www.morgenshtern.com/?module=news" class="menu_link">Новости</a>
+							<br /><a href="http://www.morgenshtern.com/?module=ustav" class="menu_link">Устав</a>
+							<br /><a href="http://www.morgenshtern.com/?module=staff" class="menu_link">Состав</a>
+							<br /><a href="http://www.morgenshtern.com/?module=history" class="menu_link">История</a>
+							<br /><a href="http://www.morgenshtern.com/?module=diplomacy" class="menu_link">Дипломатия</a>
+							<br /><a href="http://forum.morgenshtern.com/index.php?showforum=3" class="menu_link">Вступление</a>
+							<br /><a href="http://forum.morgenshtern.com/index.php?showforum=23" class="menu_link">Добавить новость</a>
+							<br /><a href="http://www.morgenshtern.com/?module=jeremiad" class="menu_link">Подать жалобу</a>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="menu_left">&nbsp;</td>
+					<td class="menu_right" style="background-position: 3% 30%">
+						<div class="menu_right_name">Ресурсы</div>
+						<div class="disabled">
+							<br /><a href="http://www.morgenshtern.com/?module=dungeon_items" class="menu_link">Пещерный лут</a>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="menu_left">&nbsp;</td>
+					<td class="menu_right" style="background-position: 3% 13%">
+						<div class="menu_right_name">Библиотека</div>
+					<div class="disabled">
+							<br /><a href="http://www.morgenshtern.com/?module=exp_table" class="menu_link">Таблица опыта</a>
+							<br /><a href="http://www.morgenshtern.com/?module=ranks_paladins" class="menu_link">Ранги паладинов</a>
+							<br /><a href="http://www.morgenshtern.com/?module=ranks_tarmans" class="menu_link">Ранги тарманов</a>
+							<br /><a href="http://www.morgenshtern.com/?module=clans" class="menu_link">Список кланов</a>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="menu_left">&nbsp;</td>
+					<td class="menu_right" style="background-position: 3% 21%">
+						<div class="menu_right_name">Творчество</div>
+						<div class="disabled">
+							<br /><a href="http://www.morgenshtern.com/?module=articals" class="menu_link">Статьи</a>
+							<br /><a href="http://www.morgenshtern.com/?module=creative" class="menu_link">Стихи и проза</a>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="menu_left">&nbsp;</td>
+					<td class="menu_right" style="background-position: 3% 30%">
+						<div class="menu_right_name">Услуги</div>
+						<div class="disabled">
+							<br /><a href="http://www.morgenshtern.com/?module=ekr" class="menu_link">Еврокредиты</a>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="menu_left" style="border-bottom: 1px solid #000">&nbsp;</td>
+					<td class="menu_right" style="background-position: 3% 8%; border-bottom: 1px solid #000">
+						<div class="menu_right_name">Форумы БК</div>
+						<div class="disabled">
+							<br /><a href="http://capitalcity.combats.ru/forum.pl?n=index" onclick="open_window(this.href); return false;" class="menu_link">Capital</a>
+							<br /><a href="http://angelscity.combats.ru/forum.pl?n=index" onclick="open_window(this.href); return false;" class="menu_link">Angels</a>
+							<br /><a href="http://demonscity.combats.ru/forum.pl?n=index" onclick="open_window(this.href); return false;" class="menu_link">Demons</a>
+							<br /><a href="http://devilscity.combats.ru/forum.pl?n=index" onclick="open_window(this.href); return false;" class="menu_link">Devils</a>
+							<br /><a href="http://suncity.combats.ru/forum.pl?n=index" onclick="open_window(this.href); return false;" class="menu_link">Sun</a>
+							<br /><a href="http://emeraldscity.combats.ru/forum.pl?n=index" onclick="open_window(this.href); return false;" class="menu_link">Emeralds</a>
+							<br /><a href="http://sandcity.combats.ru/forum.pl?n=index" onclick="open_window(this.href); return false;" class="menu_link">Sand</a>
+							<br /><a href="http://mooncity.combats.ru/forum.pl?n=index" onclick="open_window(this.href); return false;" class="menu_link">Moon</a>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="menu_left_copyright"></td>
+					<td class="menu_right_copyright" id="copyright">Aliance spb v1.4 &copy; 2005-2007</td>
+				</tr>
+				<tr>
+					<td class="menu_left_bottom">&nbsp;</td>
+					<td class="menu_right_bottom">
+						<a href="http://top.combats.ru/c.pl?jump" onclick="open_window(this.href); return false;"><img src="http://top.combats.ru/c.pl?z8" width="88" height="33" alt="Счетчик БК" class="counter" onmouseover="this.className = 'counter_over'" onmouseout="this.className = 'counter'" /></a>
+						<a href="http://top.mail.ru/jump?from=980581" onclick="open_window(this.href); return false;"><img src="http://d6.cf.be.a0.top.list.ru/counter?id=980581;t=55" height="31" width="88" alt="Рейтинг@Mail.ru" class="counter" onmouseover="this.className = 'counter_over'" onmouseout="this.className = 'counter'" /></a>
+						<br />
+					</td>
+				</tr>
+			</table>
+			<!-- МЕНЮ -->
+
+		</td>
+		<td id="content_row" valign="top">
+
+			<!-- Таблица опыта -->
+			<table id="content">
+				<tr>
+					<td>
+						<div id="content-title">
+							<img src="http://www.morgenshtern.com/img/header/exp_table.gif" width="371" height="26" alt="Morgenshtern" title="Таблица опыта" />
+						</div>
+
+
+
+<table cellpadding="0" cellspacing="0" style="border: 1px solid #000;">
+<colgroup>
+<col width="4%" style="text-align: center; padding: 2px 2px 2px 2px" />
+<col width="18%" style="text-align: center; padding: 2px 2px 2px 2px" />
+<col width="13%" style="text-align: center; padding: 2px 2px 2px 2px" />
+<col width="10%" style="text-align: center; padding: 2px 2px 2px 2px" />
+<col width="10%" style="text-align: center; padding: 2px 2px 2px 2px" />
+<col width="8%" style="text-align: center; padding: 2px 2px 2px 2px" />
+<col width="13%" style="text-align: center; padding: 2px 2px 2px 2px" />
+<col width="24%" style="text-align: center; padding: 2px 2px 2px 2px" />
+</colgroup>
+<thead style="background-color: #ddccA0; color: #5b4d2c">
+<th class="center">Уровень</th>
+<th class="center">Тело</th>
+<th class="center">Увеличение параметров (всего)</th>
+<th class="center">Увеличение мастерства</th>
+<th class="center">Кредиты (всего)</th>
+<th class="center">Выносливость</th>
+<th class="center">Опыт</th>
+<th class="center">Увеличение возможностей</th>
+</thead>
+<tbody>
+
+<tr>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">0</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">Физическое</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">3</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">1</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">0</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">0</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">0</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">&nbsp;</td>
+</tr>
+
+<tr>
+<td>0</td>
+<td>Физическое</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>20</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>0</td>
+<td>Физическое</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>45</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>0</td>
+<td>Физическое</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>2</td>
+<td>&nbsp;</td>
+<td>75</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">1</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">Физическое</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">3 (22)</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">1</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">4 (7)</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">1</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">110</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">Физические бои, доступ в форум, приватные сообщения</td>
+</tr>
+
+<tr>
+<td>1</td>
+<td>Физическое</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>160</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>1</td>
+<td>Физическое</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>215</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>1</td>
+<td>Физическое</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>2</td>
+<td>&nbsp;</td>
+<td>280</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>1</td>
+<td>Физическое</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>4</td>
+<td>&nbsp;</td>
+<td>350</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">2</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">Физическое</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">3 (30)</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">1</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">8 (22)</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">1</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">410</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">Групповые и Хаотические бои, настройка комплектов одежды</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>Физическое</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>530</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>Физическое</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>2</td>
+<td>&nbsp;</td>
+<td>670</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>Физическое</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>4</td>
+<td>&nbsp;</td>
+<td>830</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>Физическое</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>8</td>
+<td>&nbsp;</td>
+<td>950</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>Физическое</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>12</td>
+<td>&nbsp;</td>
+<td>1100</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">3</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">Физическое</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">3 (39)</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">1</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">16 (64)</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">1</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">1300</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">&nbsp;</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>Физическое</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>1450</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>Физическое</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>5</td>
+<td>&nbsp;</td>
+<td>1650</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>Физическое</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>10</td>
+<td>&nbsp;</td>
+<td>1850</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>Физическое</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>15</td>
+<td>&nbsp;</td>
+<td>2050</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>Физическое</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>20</td>
+<td>&nbsp;</td>
+<td>2200</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">4</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">Эмоций</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">5 (50)</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">1</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">25 (140)</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">1</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">2500</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">Развитие интеллекта (чтение свитков), доступ в Рыцарский Зал и Торговый Зал, передача предметов / кредитов</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>Эмоций</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>3</td>
+<td>&nbsp;</td>
+<td>2900</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>Эмоций</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>3</td>
+<td>&nbsp;</td>
+<td>3350</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>Эмоций</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>3</td>
+<td>&nbsp;</td>
+<td>3800</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>Эмоций</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>3</td>
+<td>&nbsp;</td>
+<td>4200</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>Эмоций</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>3</td>
+<td>&nbsp;</td>
+<td>4600</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">5</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">Эмоций</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">3 (59)</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">1</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">9 (164)</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">1</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">5000</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">&nbsp;</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>Эмоций</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>4</td>
+<td>&nbsp;</td>
+<td>6000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>Эмоций</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>4</td>
+<td>&nbsp;</td>
+<td>7000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>Эмоций</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>4</td>
+<td>&nbsp;</td>
+<td>8000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>Эмоций</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>4</td>
+<td>&nbsp;</td>
+<td>9000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>Эмоций</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>4</td>
+<td>&nbsp;</td>
+<td>10000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>Эмоций</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>4</td>
+<td>&nbsp;</td>
+<td>11000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>Эмоций</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>4</td>
+<td>&nbsp;</td>
+<td>12000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">6</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">Эмоций</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">3 (70)</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">1</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">12 (204)</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">1</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">12500</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">Доступ в Башню Смерти</td>
+</tr>
+
+<tr>
+<td>6</td>
+<td>Эмоций</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>6</td>
+<td>&nbsp;</td>
+<td>14000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>6</td>
+<td>Эмоций</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>6</td>
+<td>&nbsp;</td>
+<td>15500</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>6</td>
+<td>Эмоций</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>6</td>
+<td>&nbsp;</td>
+<td>17000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>6</td>
+<td>Эмоций</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>6</td>
+<td>&nbsp;</td>
+<td>19000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>6</td>
+<td>Эмоций</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>6</td>
+<td>&nbsp;</td>
+<td>21000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>6</td>
+<td>Эмоций</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>6</td>
+<td>&nbsp;</td>
+<td>23000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>6</td>
+<td>Эмоций</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>6</td>
+<td>&nbsp;</td>
+<td>27000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">7</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">Мысли</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">5 (83)</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">1</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">100 (364)</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">1</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">30000</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">Развитие мудрости (использование Магии), доступ в Башню Рыцарей - Магов</td>
+</tr>
+
+<tr>
+<td>7</td>
+<td>Мысли</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>50</td>
+<td>&nbsp;</td>
+<td>60000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>7</td>
+<td>Мысли</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>100</td>
+<td>&nbsp;</td>
+<td>75000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>7</td>
+<td>Мысли</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>150</td>
+<td>&nbsp;</td>
+<td>150000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>7</td>
+<td>Мысли</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>50</td>
+<td>&nbsp;</td>
+<td>175000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>7</td>
+<td>Мысли</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>100</td>
+<td>&nbsp;</td>
+<td>200000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>7</td>
+<td>Мысли</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>50</td>
+<td>&nbsp;</td>
+<td>225000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>7</td>
+<td>Мысли</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>100</td>
+<td>&nbsp;</td>
+<td>250000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>7</td>
+<td>Мысли</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>50</td>
+<td>&nbsp;</td>
+<td>260000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>7</td>
+<td>Мысли</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>100</td>
+<td>&nbsp;</td>
+<td>280000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">8</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">Мысли</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">5 (98)</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">1</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">700(1796)</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">1</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">300000</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">Доступ в Пещеру, защита от травм</td>
+</tr>
+
+<tr>
+<td>8</td>
+<td>Мысли</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>500</td>
+<td>&nbsp;</td>
+<td>1500000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>8</td>
+<td>Мысли</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>200</td>
+<td>&nbsp;</td>
+<td>1750000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>8</td>
+<td>Мысли</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>300</td>
+<td>&nbsp;</td>
+<td>2000000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>8</td>
+<td>Мысли</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>100</td>
+<td>&nbsp;</td>
+<td>2175000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>8</td>
+<td>Мысли</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>100</td>
+<td>&nbsp;</td>
+<td>2300000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>8</td>
+<td>Мысли</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>2400000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>8</td>
+<td>Мысли</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>200</td>
+<td>&nbsp;</td>
+<td>2500000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>8</td>
+<td>Мысли</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>100</td>
+<td>&nbsp;</td>
+<td>2600000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>8</td>
+<td>Мысли</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>200</td>
+<td>&nbsp;</td>
+<td>2800000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">9</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">Мысли</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">7(116)</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">1</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">1000 (4497)</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">2</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">3000000</td>
+<td style="border-top: 1px solid #000; border-bottom: 1px solid #000;">&nbsp;</td>
+</tr>
+
+<tr>
+<td>9</td>
+<td>Мысли</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>6000000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>9</td>
+<td>Мысли</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>200</td>
+<td>&nbsp;</td>
+<td>6500000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>9</td>
+<td>Мысли</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>7500000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>9</td>
+<td>Мысли</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>250</td>
+<td>&nbsp;</td>
+<td>8500000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>9</td>
+<td>Мысли</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>400</td>
+<td>&nbsp;</td>
+<td>9000000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>9</td>
+<td>Мысли</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>50</td>
+<td>&nbsp;</td>
+<td>9250000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>9</td>
+<td>Мысли</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>400</td>
+<td>&nbsp;</td>
+<td>9500000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>9</td>
+<td>Мысли</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>350</td>
+<td>&nbsp;</td>
+<td>9750000</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>9</td>
+<td>Мысли</td>
+<td>1</td>
+<td>&nbsp;</td>
+<td>500</td>
+<td>&nbsp;</td>
+<td>9900000</td>
+<td>&nbsp;</td>
+</tr>
+
+</tbody>
+</table>
+
+
+ 
+					</td>
+				</tr>
+			</table>
+			<!-- Таблица опыта -->
+		</td>
+	</tr>
+</table>
+
+<!-- Страница сгенерирована за 0.50309 секунд -->
+
+</body>
+</html>

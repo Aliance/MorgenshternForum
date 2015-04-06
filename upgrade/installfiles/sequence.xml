@@ -1,0 +1,22 @@
+<installdata>
+	<action>
+		<file>login</file>
+		<menu><![CDATA[Авторизация]]></menu>
+		<position>0</position>
+	</action>
+	<action>
+		<file>overview</file>
+		<menu><![CDATA[Информация]]></menu>
+		<position>1</position>
+	</action>
+	<action>
+		<file>eula</file>
+		<menu><![CDATA[Cоглашение]]></menu>
+		<position>2</position>
+	</action>
+	<action>
+		<file>install</file>
+		<menu><![CDATA[Обновление]]></menu>
+		<position>3</position>
+	</action>
+</installdata>
